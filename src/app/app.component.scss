@@ -1,0 +1,239 @@
+:root {
+  --main-color: #ee4266;
+  --alt-color: #ffd23f;
+}
+
+
+main {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+
+
+
+  // @media(max-width:992px){
+  //   width:95%;
+  // }
+}
+
+header h2 {
+  font-size: 40px;
+  color: white;
+  margin: 10px 0px;
+}
+header p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  background-color: #0f1720;
+  color: white;
+  font-size: 18px;
+  margin: 5px 0px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  transition: 0.3s;
+
+
+  @media (max-width:992px) {
+    // width:;
+    width: 86%;
+
+  }
+}
+.price {
+  text-align: left;
+
+
+  @media (max-width:992px) {
+    text-align: center;
+
+  }
+}
+
+.input .price input {
+  width: 20%;
+
+
+  @media(max-width:992px){
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+
+  }
+}
+
+.price #total {
+  background-color: #ee4266;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  @media (max-width:992px) {
+    display: block;
+    width: 79%;
+    margin: 5px auto;
+
+  }
+}
+.price #total::before {
+  content: "total : ";
+  font-size: 16px;
+}
+
+input:focus {
+  transform: scale(1.1);
+  /* background-color: #eeeeee; */
+}
+
+input:hover{
+  background-color: #000000;
+
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 32px;
+  border: 0;
+  outline: 0;
+  margin: 10px 0px;
+  background-color: #76abae;
+  color: #eeeeee;
+  transition: 0.2s;
+  color: #0f1720;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #66adb1;
+  letter-spacing: 1px;
+}
+
+.output .btns_ser {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.output table {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+
+
+}
+
+
+
+#taxes{
+  margin: 0px 10px;
+}
+
+#discount{
+  margin: 0px 10px;
+}
+.output table th,
+td {
+  color: #eeeeee;
+  padding: 10px;
+
+  @media (max-width:992px) {
+// padding: 2px;
+  }
+
+}
+
+tr{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+
+
+
+
+
+.output table th {
+  font-size: 18px;
+  text-transform: uppercase;
+
+  @media (max-width:992px) {
+// font-size: 13px;
+  }
+}
+
+
+small.error{
+  color: #ee4266;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  display: inline-block;
+  margin: 5px ;
+}
+
+.bg_color_up{
+  background-color: #ffd23f !important;
+
+}
+
+
+.bg_color_cr{
+background-color: #76abae;
+}
+
+
+.success{
+  background-color: rgb(1, 162, 1) !important;
+}
+
+
+.error2{
+  background-color: #ee4266 !important;
+}
+
+
+.line{
+  @media (max-width:992px){
+    width: 100%;
+    height: 2px;
+    background-color: #eeeeee;
+    display: block;
+    margin: 20px auto;
+
+
+  }
+}
+
+
+.container{
+  margin: 0px auto;
+  padding: 0px 15px;
+
+  @media(min-width:768px){
+    width: 720px;
+  }
+  @media(min-width:992px){
+    width: 960px;
+  }
+  @media(min-width:1200px){
+    width: 1140px;
+  }
+
+}
+.upd,.del{
+  @media (max-width:1400px){
+    width: 30%;
+  }
+}

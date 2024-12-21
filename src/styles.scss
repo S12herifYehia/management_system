@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  --webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Annie Use Your Telescope", cursive;
+  /* background: linear-gradient(to left , #265073 , #2D9596); */
+  background-color: #222831;
+}
